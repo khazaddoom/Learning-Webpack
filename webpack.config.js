@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './src/index.js',
+    entry: __dirname + '/src/index.js',
     mode: 'none',
     output: {
         filename: 'bundle.js',
